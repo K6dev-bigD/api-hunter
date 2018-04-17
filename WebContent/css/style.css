@@ -1,0 +1,431 @@
+body {
+	font: 68.75%/1.5 "Helvetica Neue",Helvetica,Arial,sans-serif;
+	/*background: #ddd none repeat scroll 0%;*/
+	color: #4d4d4d;
+	margin: 0em;
+	padding: 0em;
+	width: 100%;
+	overflow-x: hidden;
+	background-color: #ffffff;
+}
+
+
+p, li {
+	margin-bottom: 0px;
+}
+
+h1 {
+
+	color: #000;
+	font-weight: bold;
+	margin: 5px 0px 10px 20px;
+}
+
+h2 {
+	color: #FF4400;
+	margin-bottom: 10px;
+	font-size: 16px;
+}
+
+ul {
+	margin-left: 25px;
+}
+
+img {
+	border: none;
+}
+
+.clear{
+clear: both;
+}
+
+
+/*
+*----------------------------------
+*Style related to all pages - Start
+*----------------------------------
+*/
+.breadCrum {
+	border-top: 1px solid #aaa;
+	border-bottom: 1px solid #aaa;
+	margin-bottom : 10px;
+	padding-left: 20px;
+	line-height:40px;
+    background-color:#D40000;
+}
+
+#breadCrumps a{
+	color: #fff;
+	font-size:1em;
+	font-weight:normal;
+	text-decoration:none;
+}
+
+#breadCrumps a:HOVER{
+	text-decoration: underline;
+}
+
+#mainContent {
+	margin:10px;
+    position: relative;
+    min-height: 500px;
+}
+
+.ajax-loader {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top:100px;
+}
+
+.heading{
+	font-size: 25px;
+	font-weight: bold;
+	color: #D40000;
+}
+
+.heading-medium{
+	font-size: 15px;
+}
+
+.style-none{
+	text-decoration: none !important;
+}
+
+.success-messages{
+	color: green;
+}
+
+.error-messages{
+	color: red;
+}
+
+.line{
+	height: 20px;
+}
+
+.green-text{
+	color: green !important;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.green-text-thin{
+	color: green !important;
+}
+
+.red-text{
+	color: #D40000 !important;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.red-text-thin{
+	color: #D40000 !important;
+}
+
+.image-normal{
+	width: 20px;
+}
+
+.margin-twenty{
+	margin: 20px;
+}
+
+.clear-both{
+	clear: both;
+}
+
+.float-left{
+	float: left;
+}
+
+.margin-left-twenty{
+	margin-left: 20px;
+}
+
+.margin-top-twenty{
+	margin-top: 20px;
+}
+
+.no-style{
+	text-decoration: none;
+}
+/*
+*--------------------------------
+*Style related to all pages - End
+*--------------------------------
+*/
+
+
+/*
+*-----------------------------------------
+*Style related to header.jsp page - Start
+*-----------------------------------------
+*/
+#wrapper{
+	width: 96%;
+/* 	height: 85%; */
+	margin: auto;
+}
+
+#header{
+	width: 100%;
+	height: 100px;
+	margin-left: -1px;
+}
+#header a img{
+	width: 234px;
+	height: 75px;
+	margin-top: 12px;
+	margin-left: 15px;
+}
+#header ul{
+	width: 70%;
+	padding-top: 30px;
+	padding-right: 20px;
+	float: right;
+	text-align: right;
+}
+#header ul li{
+	display: inline;
+	padding: 0 10px 0 10px;
+}
+
+#header ul li a{
+	color: #D40000;
+	font-size:1.16em;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+#header ul li a:HOVER{
+/* 	text-decoration: underline; */
+	color: #940000;
+}
+
+#header ul li:last-child{
+	padding-right: 0;
+}
+
+#header #titleUser{
+	color: #D40000;
+	font-size:1.16em;
+	font-weight:bold;
+	text-decoration:none;
+}
+/*
+*---------------------------------------
+*Style related to header.jsp page - End
+*---------------------------------------
+*/
+
+
+/*
+*-----------------------------------------
+*Style related to footer.jsp page - Start
+*-----------------------------------------
+*/
+#footer{
+	width: 100%;
+	height: 80px;
+	clear: both;
+	float: left;
+}
+#footer ul{
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+	padding: 10px;
+}
+#footer ul li{
+	display: inline;
+	margin: 3px;
+}
+
+#footer ul li a{
+	color: #000;
+	font-size:1.06em;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+#footer ul li a:HOVER{
+	text-decoration:underline;
+}
+
+#footerContent{
+	margin-top:8px;
+	border-top: 1px solid #aaa;
+}
+/*
+*---------------------------------------
+*Style related to footer.jsp page - End
+*---------------------------------------
+*/
+
+
+/*
+*-----------------------------------
+*Style related to login.jsp - Start
+*-----------------------------------
+*/
+
+#loginPanel{
+	margin-left: 3%;
+}
+
+#loginContent{
+	margin: 140px 280px;
+}
+
+.login-card {
+  padding: 40px;
+  width: 450px;
+  background-color: #F7F7F7;
+  margin: 0 auto 10px;
+  border-radius: 2px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+
+.login-card h1 {
+  font-weight: 100;
+  text-align: center;
+  font-size: 2.3em;
+}
+
+.login-card .form-label{
+	width: 25%;
+	float: left;
+	margin-top: 10px;
+	font-weight: bold;
+}
+
+.login-card input[type=submit] {
+  margin-left:25%;
+  width: 180px;
+  display: block;
+  margin-bottom: 10px;
+  position: relative;
+  float: right;
+}
+
+.login-card input[type=text], .login-card input[type=password] {
+  height: 44px;
+  font-size: 16px;
+  width: 75%;
+  margin-bottom: 10px;
+  -webkit-appearance: none;
+  background: #fff;
+  border: 1px solid #d9d9d9;
+  border-top: 1px solid #c0c0c0;
+  /* border-radius: 2px; */
+  padding: 0 8px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.login-card input[type=text]:hover, .login-card input[type=password]:hover {
+  border: 1px solid #b9b9b9;
+  border-top: 1px solid #a0a0a0;
+  -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+  -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+}
+
+.login {
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Arial', sans-serif;
+  font-weight: 700;
+  height: 36px;
+  padding: 0 8px;
+/* border-radius: 3px; */
+/* -webkit-user-select: none;
+  user-select: none; */
+}
+
+.login-submit {
+  /* border: 1px solid #3079ed; */
+  border: 0px;
+  color: #fff;
+  text-shadow: 0 1px rgba(0,0,0,0.1); 
+  background-color: #D40000;
+  /* background-image: -webkit-gradient(linear, 0 0, 0 100%,   from(#4d90fe), to(#4787ed)); */
+}
+
+.login-submit:hover {
+  /* border: 1px solid #2f5bb7; */
+  border: 0px;
+  text-shadow: 0 1px rgba(0,0,0,0.3);
+  background-color: #E40000;
+  /* background-image: -webkit-gradient(linear, 0 0, 0 100%,   from(#4d90fe), to(#357ae8)); */
+}
+
+.login-card a {
+  text-decoration: none;
+  color: #666;
+  font-weight: 400;
+  text-align: center;
+  display: inline-block;
+  opacity: 0.6;
+  transition: opacity ease 0.5s;
+}
+
+.login-card a:hover {
+  opacity: 1;
+}
+
+.login-help {
+  float: right;
+  text-align: center;
+  font-size: 12px;
+}
+
+/*
+*---------------------------------
+*Style related to login.jsp - End
+*---------------------------------
+*/
+
+
+/*
+*----------------------------------------------------
+*Style related to forgotpasswordtemplate.jsp - Start
+*----------------------------------------------------
+*/
+.forgot-password-content{
+/* 	margin-left: 50px; */
+	margin-top: 20px;
+}
+
+.forgot-password-content input[type=text] {
+  height: 44px;
+  font-size: 16px;
+  width: 75%;
+  margin-bottom: 10px;
+  -webkit-appearance: none;
+  background: #fff;
+  border: 1px solid #d9d9d9;
+  border-top: 1px solid #c0c0c0;
+  /* border-radius: 2px; */
+  padding: 0 8px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.forgot-password-content input[type=text]:hover {
+  border: 1px solid #b9b9b9;
+  border-top: 1px solid #a0a0a0;
+  -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+  -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+}
+
+/*
+*--------------------------------------------------
+*Style related to forgotpasswordtemplate.jsp - End
+*--------------------------------------------------
+*/
+

@@ -1,0 +1,208 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "apiconnect-icons";
+  src:url("../fonts/apiconnect-icons.eot");
+  src:url("../fonts/apiconnect-icons.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/apiconnect-icons.woff") format("woff"),
+    url("../fonts/apiconnect-icons.ttf") format("truetype"),
+    url("../fonts/apiconnect-icons.svg#apiconnect-icons") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "apiconnect-icons" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "apiconnect-icons" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-box:before {
+  content: "a";
+}
+.icon-noun-1241:before {
+  content: "b";
+}
+.icon-flow-line:before {
+  content: "c";
+}
+.icon-subscribe:before {
+  content: "d";
+}
+.icon-users:before {
+  content: "e";
+}
+.icon-menu:before {
+  content: "g";
+}
+.icon-list:before {
+  content: "g";
+}
+.icon-noun-6158:before {
+  content: "j";
+}
+.icon-edit:before {
+  content: "h";
+}
+.icon-delete:before {
+  content: "i";
+}
+.icon-pencil:before {
+  content: "h";
+}
+.icon-cancel:before {
+  content: "i";
+}
+.icon-statistics:before {
+  content: "k";
+}
+.icon-usraccount:before {
+  content: "n";
+}
+.icon-preview:before {
+  content: "o";
+}
+.icon-versions:before {
+  content: "n";
+}
+.icon-thumbnails:before {
+  content: "o";
+}
+.icon-policy:before {
+  content: "p";
+}
+.icon-noun-50034:before {
+  content: "l";
+}
+.icon-profile:before {
+  content: "p";
+}
+.icon-policy:before {
+  content: "q";
+}
+.icon-usage:before {
+  content: "u";
+}
+.icon-contents:before {
+  content: "v";
+}
+.icon-policies:before {
+  content: "w";
+}
+.icon-noun-65090:before {
+  content: "p";
+}
+.icon-noun-4204:before {
+  content: "q";
+}
+.icon-advanced:before {
+  content: "r";
+}
+.icon-transformation:before {
+  content: "s";
+}
+.icon-overview:before {
+  content: "t";
+}
+.icon-noun-134804:before {
+  content: "y";
+}
+.icon-noun-138311:before {
+  content: "z";
+}
+.icon-noun-65090:before {
+  content: "A";
+}
+.icon-noun-63692:before {
+  content: "B";
+}
+.icon-gateway:before {
+  content: "C";
+}
+.icon-pack:before {
+  content: "f";
+}
+.icon-spec:before {
+  content: "D";
+}
+.icon-noun-93852:before {
+  content: "f";
+}
+.icon-noun-4769:before {
+  content: "x";
+}
+.icon-branding1:before {
+  content: "D";
+}
+.icon-plan:before {
+  content: "E";
+}
+.icon-status:before {
+  content: "G";
+}
+.icon-noun-12972:before {
+  content: "H";
+}
+.icon-check-mark-2:before {
+  content: "I";
+}
+.icon-approval:before {
+  content: "J";
+}
+.icon-usageplan:before {
+  content: "m";
+}
+.icon-group:before {
+  content: "K";
+}
+.icon-usageplan:before {
+  content: "L";
+}
+.icon-noun-4305:before {
+  content: "m";
+}
+.icon-branding:before {
+  content: "F";
+}
+.icon-user-group:before {
+  content: "M";
+}
+.icon-user-activity:before {
+  content: "N";
+}
+.icon-application:before {
+  content: "O";
+}
+.icon-answer:before {
+  content: "P";
+}
+.icon-question:before {
+  content: "Q";
+}
+.icon-suborg:before {
+  content: "R";
+}
+.icon-platinum:before {
+  content: "S";
+}
